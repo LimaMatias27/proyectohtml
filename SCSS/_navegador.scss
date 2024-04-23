@@ -1,0 +1,53 @@
+nav ul  {
+    font-size: 35px;
+    font-family: 'Quarz 974 Light 400';
+    list-style: none;
+    float: right;
+    display: flex;
+    gap: 15px;
+}
+.nav-link{
+    color: white;
+}
+.nav_style {
+    display: flex;
+    justify-content: left;
+    font-family: 'Quarz 974 Light 400'; 
+    text-decoration: none;
+    color: silver;
+    
+}
+.navbar_2 {
+    display: flex;
+  justify-content: flex-end;
+  
+  
+}
+.nav_style2 {
+    display: inline-block;
+    font-family: teko;
+    font-size: 3rem;
+    color: black;
+    margin: 15px;
+    border: black 3px solid;
+    background-color: rgba(255, 255, 255, 0.5); /* Color de fondo con opacidad */
+  backdrop-filter: blur(10px); /* Aplica un efecto de desenfoque */
+  padding: 0px 1px;
+    
+   
+    
+}
+.nav_style2:hover {
+    color: silver;
+}
+.nav_back_style {
+    background-color: #0a0a0a;
+}
+nav ul li a {
+    color: white;
+}
+.nav_style :hover {
+    color: black;
+}
+
+    
