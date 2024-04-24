@@ -3,7 +3,7 @@
  .citd_style {   /*Estilo de la pagina general*/
     background-image: url(https://www.tarja-coloursinthedark.com/wp-content/uploads/2013/05/start_album_cover_motiv1080.jpg) ;
     backdrop-filter: blur(10px); 
-    background-color: rgba(255,255,255,0.8);            /*Efecto de desenfoque*/
+    background-color:$efecto_desenfoque;
     padding: 40px;
     color: black ;
     font-family: Arial, Helvetica, sans-serif;
