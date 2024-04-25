@@ -13,8 +13,11 @@ body { /* Estilo de la pagina en general */
           backdrop-filter: blur(10px); /* Aplica un desenfoque */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Sombra */
   color: black; /* Texto plateado */
-}
 
+}
+p {
+  margin: 3rem;
+}
 nav ul {
   font-size: 35px;
   font-family: "Quarz 974 Light 400";
