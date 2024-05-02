@@ -224,12 +224,13 @@ nav ul li a {
 
 .best_tittle {
   font-family: "Quarz 974 Light 400";
-  color: black;
+  color: silver;
+ 
 }
 
 .best_list {
   font-family: "Roboto Condensed", sans-serif;
-  color: black;
+  color: white;
   font-size: x-large;
 }
 
@@ -294,7 +295,7 @@ nav ul li a {
           backdrop-filter: blur(10px);
   background-color: rgba(255, 255, 255, 0.8); /*Efecto de desenfoque*/
   padding: 40px;
-  color: black;
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -303,7 +304,7 @@ nav ul li a {
 .citd_tittle { /*Estilo del titulo*/
   font-family: Teko;
   font-size: 30px;
-  color: #0a0a0a;
+  color: #2a0d41;
   border: 2px black solid;
   padding: 10px;
   display: inline-block;
