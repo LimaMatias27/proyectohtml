@@ -80,8 +80,9 @@ nav ul li a {
 }
 
 .news_style {
-  background-image: url(https://static.vecteezy.com/system/resources/previews/009/710/196/large_2x/blank-glued-aluminum-foil-texture-for-background-and-wallpaper-crumpled-abstract-texture-surface-from-wrapping-paper-wrinkled-shiny-silver-foil-for-banner-poster-overlay-and-design-element-photo.jpg);
+  background-image: url(https://i.pinimg.com/736x/0e/f8/63/0ef8639503bd4b6444035e62f895fd55.jpg);
   background-color: silver;
+  object-fit: cover;
   font-family: "Quarz 974 Light 400";
   color: white;
 }
@@ -118,6 +119,10 @@ nav ul li a {
   border: solid 2px silver;
   
 }
+.img_portada:hover{transform: scale(0.8);
+  transition: 300ms;
+
+}
 
 .img_portada2 { /*Segunda imagen de la biografia*/
   float: left;
@@ -126,14 +131,22 @@ nav ul li a {
     max-width: 40%;
   border: solid 2px silver;
 }
+.img_portada2:hover{
+  transform: scale(1.2);
+  transition: 300ms;
+}
 
 .img_portada3 { /*Tercera imagen de la biografia*/
   float: right;
   display: flex;
-    margin: 0 auto;
+    margin: 10px auto;
     max-width: 50%;
   border: solid 2px silver;
   
+}
+.img_portada3:hover {
+  transform: scale(1.1);
+  transition: 200ms;
 }
 
 .img_portada4 { /*Cuarta imagen de la biografia*/
@@ -144,12 +157,20 @@ nav ul li a {
   left: 500px;
   border: solid 2px silver;
 }
+.img_portada4:hover{
+  transform: scale(1.1);
+  transition: 300ms;
+}
 .img_portada5 {
   float: right;
   display: flex;
     margin: 0 auto;
     max-width: 30%;
   border: solid 2px silver;
+}
+.img_portada5:hover{
+  transform: scale(1.1);
+  transition: 300ms;
 }
 
 .disc_lista {
@@ -311,6 +332,8 @@ nav ul li a {
 }
 
 .pie_pagina {
+  
+  
   width: 100%;
   background-color: rgba(255, 255, 255, 0.2); /* Color de fondo semitransparente */
   -webkit-backdrop-filter: blur(10px);
@@ -346,13 +369,15 @@ nav ul li a {
 }
 
 .grupo-2 {
-  background-color: rgba(255, 255, 255, 0.2); /* Color de fondo semitransparente */
+   background-color: rgba(255, 255, 255, 0.2); /* Color de fondo semitransparente */
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px); /* Aplicar desenfoque al fondo */
   text-align: center;
   font-size: x-large;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
+  
+
 }
 
 #in_line {
